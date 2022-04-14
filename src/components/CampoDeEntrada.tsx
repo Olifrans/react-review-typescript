@@ -7,7 +7,8 @@ interface Props {
   handleAdd: (e: React.FormEvent) => void;
 }
 
-const InputFeild: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
+      
+const CampoDeEntrada: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
@@ -19,16 +20,15 @@ const InputFeild: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
       }}
     >
       <input
+        type="text"
         ref={inputRef}
-        type="input"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
-        placeholder="Entre com os dados.."
+        placeholder="Digite os dados para adcionar uma nova tarefa..."
         className="input__box"
       />
       <button
-        type="submit"
-        placeholder="Entre com os dados.."
+        type="submit"        
         className="input_submit"
       >
         GO
@@ -37,4 +37,5 @@ const InputFeild: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
   );
 };
 
-export default InputFeild;
+export default CampoDeEntrada;
+
