@@ -1,7 +1,7 @@
 # Estudando React e TypeScript:
 Review conceitual de React e TypeScript, um simples projeto Gerenciador de Atividades e Tarefas
 
-## Mais informações deploy do projeto no servidor ( Heroku ) no link abaixo:
+## Deploy do projeto no servidor (Heroku) link abaixo:
 <https://tarefas-e-atividades.herokuapp.com>
 
 ### Criando o projeto:
