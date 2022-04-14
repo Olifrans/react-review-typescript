@@ -1,9 +1,8 @@
 # Estudando React e TypeScript
-Dando uma review em React e TypeScript em um simples projeto de gerenciamento de tarefas
+Review conceitual de React e TypeScript, um simples projeto de gerenciamento de tarefas
 
-
-## Projetos - Gerenciador de Atividades e Tarefas
-
+## Deploy do projeto - Gerenciador de Atividades e Tarefas no servidor ( Heroku )
+`https://tarefas-e-atividades.herokuapp.com/`
 
 ### Criando o projeto:
 yarn create react-app react-review-typescript --template typescript
